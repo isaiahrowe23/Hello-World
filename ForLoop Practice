@@ -1,0 +1,31 @@
+//This is a program to take a positive number as an input
+//Make a for loop to validate the positive number
+//make a loop to add every number from 1 up to the positive number and add them together
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    
+    int positiveNum;
+    
+    cout<<"Give me a positve number"<<endl;
+    cin>> positiveNum;
+    
+    for (int validate=1; validate<=1; validate++)
+    if(positiveNum >0)
+    {
+        cout<<"Positive Number"<<endl;
+    }
+    else
+    {
+        cout<<"Negative Number Try again"<<endl;
+    }
+    
+for(int sum = 1;sum <=positiveNum;sum++)
+{
+    cout <<sum+sum++<<endl;
+}
+    // your code goes here
+	return 0;
+}
